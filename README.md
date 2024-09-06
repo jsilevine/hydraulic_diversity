@@ -1,2 +1,3 @@
 # hydraulic_diversity
-Code to generate figures and analyses from manuscript: "Hydraulic diversity in plant communities maintained by competition for water and light"
+
+This repository contains the code to reproduce figures and analyses from the manuscript "Hydraulic diversity in plant communities maintained by competition for water and light" by Jacob I. Levine, Jonathan M. Levine, and Stephen W. Pacala. All computer code is found in the subdirectory `\code`. Within `code` there is a second subdirectory `simulator` which contains all scripts which comprise the plant community dynamics simulator. All code is written in julia, and analyses were carried out in version 1.10.1 (2024-02-13). The packages used to carry out the analyses are recorded in `project.toml`, which is loaded at the beginning of each figure script. 

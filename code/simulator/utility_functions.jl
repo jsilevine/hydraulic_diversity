@@ -9,17 +9,6 @@
 ## functions for various purposes.
 ##---------------------------------------------------------------
 
-##---------------------------------------------------------------
-## WATER_ONLY_SIMULATOR -- utility_functions.jl
-##
-## By: Jacob Levine -- jacoblevine@princeton.edu
-## December 2023
-##
-## This script contains general utility functions, called by many different
-## functions for various purposes.
-##---------------------------------------------------------------
-
-using DataFrames: DataFrameColumns
 ## define parameters
 
 

@@ -149,11 +149,11 @@ rplot_2 = plot!(xlab = "", ylab = "")
 dynplot_2 = plot(dynplot_2, ylab = "")
 p2 = plot(plot(rplot_2, xlab = "", title = "σ map = " * string(sd2)), plot(dynplot_2, colorbar = :none, legend = :none, yab = "", xlab = ""), layout = [1,1])
 
-rplot_1
+rplot_1 = plot(rplot_1, dpi = 1000)
 savefig(rplot_1, "../figures/figure8/figure8a.png")
-rplot_2
+rplot_2 = plot(plot(rplot_2), dpi = 1000)
 savefig(rplot_2, "../figures/figure8/figure8b.png")
-dynplot_1
+dynplot_1 = plot(dynplot_1, dpi = 1000)
 savefig(dynplot_1,"../figures/figure8/figure8c.png")
-dynplot_2
+dynplot_2 = plot(dynplot_2, dpi = 1000)
 savefig(dynplot_2,"../figures/figure8/figure8d.png")
